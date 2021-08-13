@@ -13,6 +13,12 @@ sudo ./install.sh
 * View service status: `systemctl status grow-monitor`
 * Stop service: `sudo systemctl stop grow-monitor`
 * Start service: `sudo systemctl start grow-monitor`
+* Restart service: `sudo service grow-monitor restart`
+
+If you want to disable the service permanently
+* Stop service: `sudo systemctl stop grow-monitor`
+* Disable service: `sudo systemctl disable grow-monitor`
+
 * View full debug/error output: `journalctl --no-pager --unit grow-monitor`
 
 # Configuring Grow
